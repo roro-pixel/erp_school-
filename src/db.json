@@ -1,0 +1,2287 @@
+{
+  "families": [
+    {
+      "id": "FAM-001",
+      "familyName": "MAKOSSO",
+      "address": "12 Rue des Écoles, Brazzaville",
+      "phone": "062514789",
+      "email": "makosso@example.com"
+    },
+    {
+      "id": "FAM-002",
+      "familyName": "NGOUMA",
+      "address": "Rue de la Paix, Brazzaville",
+      "phone": "067845213",
+      "email": "ngouma@example.com"
+    },
+    {
+      "id": "FAM-003",
+      "familyName": "MBEMBA",
+      "address": "Avenue des Palmiers, Pointe-Noire",
+      "phone": "064895672",
+      "email": "mbemba@example.com"
+    },
+    {
+      "id": "FAM-004",
+      "familyName": "OKOMBI",
+      "address": "Quartier Résidentiel, Dolisie",
+      "phone": "062154892",
+      "email": "okombi@example.com"
+    },
+    {
+      "id": "FAM-005",
+      "familyName": "KIMBANGU",
+      "address": "85 Avenue Sassou, Brazzaville",
+      "phone": "069874525",
+      "email": "kimbangu@example.com"
+    },
+    {
+      "id": "FAM-006",
+      "familyName": "MOUELE",
+      "address": "5 Rue de l'Indépendance, Pointe-Noire",
+      "phone": "066528974",
+      "email": "mouele@example.com"
+    },
+    {
+      "id": "FAM-007",
+      "familyName": "BATCHI",
+      "address": "17 Avenue de la Liberté, Brazzaville",
+      "phone": "068521437",
+      "email": "batchi@example.com"
+    },
+    {
+      "id": "FAM-008",
+      "familyName": "MAKITA",
+      "address": "22 Rue Marien Ngouabi, Dolisie",
+      "phone": "061258479",
+      "email": "makita@example.com"
+    }
+  ],
+  "parents": [
+    {
+      "id": "PAR-001",
+      "firstname": "Jean",
+      "lastname": "MAKOSSO",
+      "relationship": "Père",
+      "familyId": "FAM-001",
+      "profession": "Ingénieur",
+      "phone": "062514789",
+      "email": "makosso@example.com"
+    },
+    {
+      "id": "PAR-002",
+      "firstname": "Marie",
+      "lastname": "NGOUMA",
+      "relationship": "Mère",
+      "familyId": "FAM-002",
+      "profession": "Enseignante",
+      "phone": "067845213",
+      "email": "ngouma@example.com"
+    },
+    {
+      "id": "PAR-003",
+      "firstname": "Paul",
+      "lastname": "MBEMBA",
+      "relationship": "Père",
+      "familyId": "FAM-003",
+      "profession": "Médecin",
+      "phone": "064895672",
+      "email": "mbemba@example.com"
+    },
+    {
+      "id": "PAR-004",
+      "firstname": "Sophie",
+      "lastname": "OKOMBI",
+      "relationship": "Mère",
+      "familyId": "FAM-004",
+      "profession": "Comptable",
+      "phone": "062154892",
+      "email": "okombi@example.com"
+    },
+    {
+      "id": "PAR-005",
+      "firstname": "Pierre",
+      "lastname": "KIMBANGU",
+      "relationship": "Père",
+      "familyId": "FAM-005",
+      "profession": "Architecte",
+      "phone": "069874525",
+      "email": "kimbangu@example.com"
+    },
+    {
+      "id": "PAR-006",
+      "firstname": "Evelyne",
+      "lastname": "MOUELE",
+      "relationship": "Mère",
+      "familyId": "FAM-006",
+      "profession": "Avocate",
+      "phone": "066528974",
+      "email": "mouele@example.com"
+    },
+    {
+      "id": "PAR-007",
+      "firstname": "André",
+      "lastname": "BATCHI",
+      "relationship": "Père",
+      "familyId": "FAM-007",
+      "profession": "Professeur",
+      "phone": "068521437",
+      "email": "batchi@example.com"
+    },
+    {
+      "id": "PAR-008",
+      "firstname": "Patricia",
+      "lastname": "MAKITA",
+      "relationship": "Mère",
+      "familyId": "FAM-008",
+      "profession": "Médecin",
+      "phone": "061258479",
+      "email": "makita@example.com"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-001",
+      "firstname": "Luc",
+      "lastname": "MAKOSSO",
+      "dateOfBirth": "2019-05-15",
+      "gender": "male",
+      "classId": "CL-001",
+      "familyId": "FAM-001",
+      "parentId": "PAR-001"
+    },
+    {
+      "id": "STU-002",
+      "firstname": "Anne",
+      "lastname": "NGOUMA",
+      "dateOfBirth": "2019-08-10",
+      "gender": "female",
+      "classId": "CL-001",
+      "familyId": "FAM-002",
+      "parentId": "PAR-002"
+    },
+    {
+      "id": "STU-003",
+      "firstname": "Richard",
+      "lastname": "MBEMBA",
+      "dateOfBirth": "2018-01-12",
+      "gender": "male",
+      "classId": "CL-002",
+      "familyId": "FAM-003",
+      "parentId": "PAR-003"
+    },
+    {
+      "id": "STU-004",
+      "firstname": "Jeanne",
+      "lastname": "OKOMBI",
+      "dateOfBirth": "2018-11-05",
+      "gender": "female",
+      "classId": "CL-002",
+      "familyId": "FAM-004",
+      "parentId": "PAR-004"
+    },
+    {
+      "id": "STU-005",
+      "firstname": "Théo",
+      "lastname": "KIMBANGU",
+      "dateOfBirth": "2017-07-23",
+      "gender": "male",
+      "classId": "CL-003",
+      "familyId": "FAM-005",
+      "parentId": "PAR-005"
+    },
+    {
+      "id": "STU-006",
+      "firstname": "Claudia",
+      "lastname": "MOUELE",
+      "dateOfBirth": "2017-09-18",
+      "gender": "female",
+      "classId": "CL-003",
+      "familyId": "FAM-006",
+      "parentId": "PAR-006"
+    },
+    {
+      "id": "STU-007",
+      "firstname": "Pascal",
+      "lastname": "BATCHI",
+      "dateOfBirth": "2016-04-05",
+      "gender": "male",
+      "classId": "CL-004",
+      "familyId": "FAM-007",
+      "parentId": "PAR-007"
+    },
+    {
+      "id": "STU-008",
+      "firstname": "Léa",
+      "lastname": "MAKITA",
+      "dateOfBirth": "2016-12-22",
+      "gender": "female",
+      "classId": "CL-004",
+      "familyId": "FAM-008",
+      "parentId": "PAR-008"
+    },
+    {
+      "id": "STU-009",
+      "firstname": "Kevin",
+      "lastname": "MBEMBA",
+      "dateOfBirth": "2015-03-30",
+      "gender": "male",
+      "classId": "CL-005",
+      "familyId": "FAM-003",
+      "parentId": "PAR-003"
+    },
+    {
+      "id": "STU-010",
+      "firstname": "Elodie",
+      "lastname": "OKOMBI",
+      "dateOfBirth": "2015-06-14",
+      "gender": "female",
+      "classId": "CL-005",
+      "familyId": "FAM-004",
+      "parentId": "PAR-004"
+    },
+    {
+      "id": "STU-011",
+      "firstname": "François",
+      "lastname": "MAKOSSO",
+      "dateOfBirth": "2014-11-08",
+      "gender": "male",
+      "classId": "CL-006",
+      "familyId": "FAM-001",
+      "parentId": "PAR-001"
+    },
+    {
+      "id": "STU-012",
+      "firstname": "Mireille",
+      "lastname": "NGOUMA",
+      "dateOfBirth": "2014-02-19",
+      "gender": "female",
+      "classId": "CL-006",
+      "familyId": "FAM-002",
+      "parentId": "PAR-002"
+    },
+    {
+      "id": "STU-013",
+      "firstname": "Gabriel",
+      "lastname": "KIMBANGU",
+      "dateOfBirth": "2013-08-11",
+      "gender": "male",
+      "classId": "CL-007",
+      "familyId": "FAM-005",
+      "parentId": "PAR-005"
+    },
+    {
+      "id": "STU-014",
+      "firstname": "Carine",
+      "lastname": "MOUELE",
+      "dateOfBirth": "2013-01-25",
+      "gender": "female",
+      "classId": "CL-007",
+      "familyId": "FAM-006",
+      "parentId": "PAR-006"
+    },
+    {
+      "id": "STU-015",
+      "firstname": "Hervé",
+      "lastname": "BATCHI",
+      "dateOfBirth": "2012-05-17",
+      "gender": "male",
+      "classId": "CL-008",
+      "familyId": "FAM-007",
+      "parentId": "PAR-007"
+    },
+    {
+      "id": "STU-016",
+      "firstname": "Florence",
+      "lastname": "MAKITA",
+      "dateOfBirth": "2012-10-03",
+      "gender": "female",
+      "classId": "CL-008",
+      "familyId": "FAM-008",
+      "parentId": "PAR-008"
+    }
+  ],
+  "studentFeeProfiles": [
+    {
+      "id": "SFP-001",
+      "studentId": "STU-001",
+      "firstname": "Luc",
+      "lastname": "MAKOSSO",
+      "class": "Petite Section",
+      "family": "FAMILLE MAKOSSO",
+      "parentFirstname": "Jean",
+      "parentLastname": "MAKOSSO",
+      "parentPhone": "062514789",
+      "parentEmail": "makosso@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-002",
+      "studentId": "STU-002",
+      "firstname": "Anne",
+      "lastname": "NGOUMA",
+      "class": "Petite Section",
+      "family": "FAMILLE NGOUMA",
+      "parentFirstname": "Marie",
+      "parentLastname": "NGOUMA",
+      "parentPhone": "067845213",
+      "parentEmail": "ngouma@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-003",
+      "studentId": "STU-003",
+      "firstname": "Richard",
+      "lastname": "MBEMBA",
+      "class": "Moyenne Section",
+      "family": "FAMILLE MBEMBA",
+      "parentFirstname": "Paul",
+      "parentLastname": "MBEMBA",
+      "parentPhone": "064895672",
+      "parentEmail": "mbemba@example.com",
+      "outstandingAmount": 0,
+      "reduction": "5%"
+    },
+    {
+      "id": "SFP-004",
+      "studentId": "STU-004",
+      "firstname": "Jeanne",
+      "lastname": "OKOMBI",
+      "class": "Moyenne Section",
+      "family": "FAMILLE OKOMBI",
+      "parentFirstname": "Sophie",
+      "parentLastname": "OKOMBI",
+      "parentPhone": "062154892",
+      "parentEmail": "okombi@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-005",
+      "studentId": "STU-005",
+      "firstname": "Théo",
+      "lastname": "KIMBANGU",
+      "class": "Grande Section",
+      "family": "FAMILLE KIMBANGU",
+      "parentFirstname": "Pierre",
+      "parentLastname": "KIMBANGU",
+      "parentPhone": "069874525",
+      "parentEmail": "kimbangu@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-006",
+      "studentId": "STU-006",
+      "firstname": "Claudia",
+      "lastname": "MOUELE",
+      "class": "Grande Section",
+      "family": "FAMILLE MOUELE",
+      "parentFirstname": "Evelyne",
+      "parentLastname": "MOUELE",
+      "parentPhone": "066528974",
+      "parentEmail": "mouele@example.com",
+      "outstandingAmount": 0,
+      "reduction": "5%"
+    },
+    {
+      "id": "SFP-007",
+      "studentId": "STU-007",
+      "firstname": "Pascal",
+      "lastname": "BATCHI",
+      "class": "CP",
+      "family": "FAMILLE BATCHI",
+      "parentFirstname": "André",
+      "parentLastname": "BATCHI",
+      "parentPhone": "068521437",
+      "parentEmail": "batchi@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-008",
+      "studentId": "STU-008",
+      "firstname": "Léa",
+      "lastname": "MAKITA",
+      "class": "CP",
+      "family": "FAMILLE MAKITA",
+      "parentFirstname": "Patricia",
+      "parentLastname": "MAKITA",
+      "parentPhone": "061258479",
+      "parentEmail": "makita@example.com",
+      "outstandingAmount": 0,
+      "reduction": "10%"
+    },
+    {
+      "id": "SFP-009",
+      "studentId": "STU-009",
+      "firstname": "Kevin",
+      "lastname": "MBEMBA",
+      "class": "CE1",
+      "family": "FAMILLE MBEMBA",
+      "parentFirstname": "Paul",
+      "parentLastname": "MBEMBA",
+      "parentPhone": "064895672",
+      "parentEmail": "mbemba@example.com",
+      "outstandingAmount": 0,
+      "reduction": "5%"
+    },
+    {
+      "id": "SFP-010",
+      "studentId": "STU-010",
+      "firstname": "Elodie",
+      "lastname": "OKOMBI",
+      "class": "CE1",
+      "family": "FAMILLE OKOMBI",
+      "parentFirstname": "Sophie",
+      "parentLastname": "OKOMBI",
+      "parentPhone": "062154892",
+      "parentEmail": "okombi@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-011",
+      "studentId": "STU-011",
+      "firstname": "François",
+      "lastname": "MAKOSSO",
+      "class": "CE2",
+      "family": "FAMILLE MAKOSSO",
+      "parentFirstname": "Jean",
+      "parentLastname": "MAKOSSO",
+      "parentPhone": "062514789",
+      "parentEmail": "makosso@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-012",
+      "studentId": "STU-012",
+      "firstname": "Mireille",
+      "lastname": "NGOUMA",
+      "class": "CE2",
+      "family": "FAMILLE NGOUMA",
+      "parentFirstname": "Marie",
+      "parentLastname": "NGOUMA",
+      "parentPhone": "067845213",
+      "parentEmail": "ngouma@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-013",
+      "studentId": "STU-013",
+      "firstname": "Gabriel",
+      "lastname": "KIMBANGU",
+      "class": "CM1",
+      "family": "FAMILLE KIMBANGU",
+      "parentFirstname": "Pierre",
+      "parentLastname": "KIMBANGU",
+      "parentPhone": "069874525",
+      "parentEmail": "kimbangu@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-014",
+      "studentId": "STU-014",
+      "firstname": "Carine",
+      "lastname": "MOUELE",
+      "class": "CM1",
+      "family": "FAMILLE MOUELE",
+      "parentFirstname": "Evelyne",
+      "parentLastname": "MOUELE",
+      "parentPhone": "066528974",
+      "parentEmail": "mouele@example.com",
+      "outstandingAmount": 0,
+      "reduction": "5%"
+    },
+    {
+      "id": "SFP-015",
+      "studentId": "STU-015",
+      "firstname": "Hervé",
+      "lastname": "BATCHI",
+      "class": "CM2",
+      "family": "FAMILLE BATCHI",
+      "parentFirstname": "André",
+      "parentLastname": "BATCHI",
+      "parentPhone": "068521437",
+      "parentEmail": "batchi@example.com",
+      "outstandingAmount": 0,
+      "reduction": "0%"
+    },
+    {
+      "id": "SFP-016",
+      "studentId": "STU-016",
+      "firstname": "Florence",
+      "lastname": "MAKITA",
+      "class": "CM2",
+      "family": "FAMILLE MAKITA",
+      "parentFirstname": "Patricia",
+      "parentLastname": "MAKITA",
+      "parentPhone": "061258479",
+      "parentEmail": "makita@example.com",
+      "outstandingAmount": 0,
+      "reduction": "10%"
+    }
+  ],
+  "levels": [
+    {
+      "id": "LVL-001",
+      "name": "Maternelle",
+      "description": "Cycle préscolaire comprenant Petite, Moyenne et Grande Sections"
+    },
+    {
+      "id": "LVL-002",
+      "name": "Primaire",
+      "description": "Cycle primaire comprenant du CP au CM2"
+    },
+    {
+      "id": "LVL-003",
+      "name": "Collège",
+      "description": "Cycle secondaire du Collège comprenant de la 6ème à la 3ème"
+    },
+    {
+      "id": "LVL-004",
+      "name": "Lycée",
+      "description": "Cycle secondaire du Lycée comprenant la Seconde, Première et Terminale"
+    }
+  ],
+  "classes": [
+    {
+      "id": "CL-001",
+      "name": "Petite Section",
+      "levelId": "LVL-001",
+      "classDescription": "Première classe du cycle préscolaire"
+    },
+    {
+      "id": "CL-002",
+      "name": "Moyenne Section",
+      "levelId": "LVL-001",
+      "classDescription": "Deuxième classe du cycle préscolaire"
+    },
+    {
+      "id": "CL-003",
+      "name": "Grande Section",
+      "levelId": "LVL-001",
+      "classDescription": "Dernière classe du cycle préscolaire"
+    },
+    {
+      "id": "CL-004",
+      "name": "CP",
+      "levelId": "LVL-002",
+      "classDescription": "Cours préparatoire"
+    },
+    {
+      "id": "CL-005",
+      "name": "CE1",
+      "levelId": "LVL-002",
+      "classDescription": "Cours élémentaire première année"
+    },
+    {
+      "id": "CL-006",
+      "name": "CE2",
+      "levelId": "LVL-002",
+      "classDescription": "Cours élémentaire deuxième année"
+    },
+    {
+      "id": "CL-007",
+      "name": "CM1",
+      "levelId": "LVL-002",
+      "classDescription": "Cours moyen première année"
+    },
+    {
+      "id": "CL-008",
+      "name": "CM2",
+      "levelId": "LVL-002",
+      "classDescription": "Cours moyen deuxième année"
+    }
+  ],
+  "fees": [
+    {
+      "id": "FEE-001",
+      "name": "Frais de scolarité - Préscolaire",
+      "amount": 50000,
+      "feeDescription": "Frais mensuels pour le cycle préscolaire",
+      "typeFee": "SCOLARITE",
+      "paymentFrequency": "MENSUEL",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-002",
+      "name": "Frais de scolarité - Primaire",
+      "amount": 53000,
+      "feeDescription": "Frais mensuels pour le cycle primaire",
+      "typeFee": "SCOLARITE",
+      "paymentFrequency": "MENSUEL",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-005",
+      "name": "Inscription - Nouvelle",
+      "amount": 45000,
+      "feeDescription": "Frais d'inscription pour les nouveaux élèves",
+      "typeFee": "INSCRIPTION",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-006",
+      "name": "Réinscription",
+      "amount": 40000,
+      "feeDescription": "Frais de réinscription pour les anciens élèves",
+      "typeFee": "REINSCRIPTION",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-007",
+      "name": "Tenue scolaire",
+      "amount": 25000,
+      "feeDescription": "Uniforme scolaire complet",
+      "typeFee": "TENUE",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-008",
+      "name": "Tenue sportive - Préscolaire/Primaire",
+      "amount": 6500,
+      "feeDescription": "Tenue de sport pour les élèves de préscolaire et primaire",
+      "typeFee": "TENUE",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-010",
+      "name": "Livres et fournitures - Préscolaire",
+      "amount": 18000,
+      "feeDescription": "Livres et fournitures pour le cycle préscolaire",
+      "typeFee": "LIVRE",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    },
+    {
+      "id": "FEE-011",
+      "name": "Livres et fournitures - Primaire",
+      "amount": 23000,
+      "feeDescription": "Livres et fournitures pour le cycle primaire",
+      "typeFee": "LIVRE",
+      "paymentFrequency": "UNIQUE",
+      "effectiveFrom": "2024-09-01"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-STU1-SEP",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-SEP",
+      "date": "2024-09-05",
+      "amount": 144500,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU1-OCT",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-OCT",
+      "date": "2024-10-05",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU1-NOV",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-NOV",
+      "date": "2024-11-05",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU1-DEC",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-DEC",
+      "date": "2024-12-04",
+      "amount": 50000,
+      "method": "CHEQUE"
+    },
+    {
+      "id": "PAY-STU1-JAN",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-JAN",
+      "date": "2025-01-06",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU1-FEV",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-FEV",
+      "date": "2025-02-05",
+      "amount": 50000,
+      "method": "MOBILE_MONEY"
+    },
+    {
+      "id": "PAY-STU1-MAR",
+      "studentId": "STU-001",
+      "invoiceId": "INV-STU1-MAR",
+      "date": "2025-03-04",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU2-SEP",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-SEP",
+      "date": "2024-09-10",
+      "amount": 144500,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU2-OCT",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-OCT",
+      "date": "2024-10-08",
+      "amount": 50000,
+      "method": "CHEQUE"
+    },
+    {
+      "id": "PAY-STU2-NOV",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-NOV",
+      "date": "2024-11-07",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU2-DEC",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-DEC",
+      "date": "2024-12-06",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU2-JAN",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-JAN",
+      "date": "2025-01-09",
+      "amount": 50000,
+      "method": "MOBILE_MONEY"
+    },
+    {
+      "id": "PAY-STU2-FEV",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-FEV",
+      "date": "2025-02-08",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU2-MAR",
+      "studentId": "STU-002",
+      "invoiceId": "INV-STU2-MAR",
+      "date": "2025-03-07",
+      "amount": 50000,
+      "method": "CHEQUE"
+    },
+    {
+      "id": "PAY-STU3-SEP",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-SEP",
+      "date": "2024-09-03",
+      "amount": 139500,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU3-OCT",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-OCT",
+      "date": "2024-10-04",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU3-NOV",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-NOV",
+      "date": "2024-11-05",
+      "amount": 50000,
+      "method": "MOBILE_MONEY"
+    },
+    {
+      "id": "PAY-STU3-DEC",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-DEC",
+      "date": "2024-12-03",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU3-JAN",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-JAN",
+      "date": "2025-01-06",
+      "amount": 50000,
+      "method": "CHEQUE"
+    },
+    {
+      "id": "PAY-STU3-FEV",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-FEV",
+      "date": "2025-02-04",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU3-MAR",
+      "studentId": "STU-003",
+      "invoiceId": "INV-STU3-MAR",
+      "date": "2025-03-05",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU4-SEP",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-SEP",
+      "date": "2024-09-12",
+      "amount": 139500,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU4-OCT",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-OCT",
+      "date": "2024-10-10",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU4-NOV",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-NOV",
+      "date": "2024-11-09",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU4-DEC",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-DEC",
+      "date": "2024-12-11",
+      "amount": 50000,
+      "method": "MOBILE_MONEY"
+    },
+    {
+      "id": "PAY-STU4-JAN",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-JAN",
+      "date": "2025-01-10",
+      "amount": 50000,
+      "method": "CASH"
+    },
+    {
+      "id": "PAY-STU4-FEV",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-FEV",
+      "date": "2025-02-10",
+      "amount": 50000,
+      "method": "CHEQUE"
+    },
+    {
+      "id": "PAY-STU4-MAR",
+      "studentId": "STU-004",
+      "invoiceId": "INV-STU4-MAR",
+      "date": "2025-03-11",
+      "amount": 50000,
+      "method": "CASH"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-STU1-SEP",
+      "studentId": "STU-001",
+      "date": "2024-09-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Inscription",
+          "amount": 45000
+        },
+        {
+          "description": "Scolarité Septembre 2024",
+          "amount": 50000
+        },
+        {
+          "description": "Tenue scolaire",
+          "amount": 25000
+        },
+        {
+          "description": "Tenue sportive",
+          "amount": 6500
+        },
+        {
+          "description": "Livres et fournitures",
+          "amount": 18000
+        }
+      ],
+      "totalAmount": 144500
+    },
+    {
+      "id": "INV-STU1-OCT",
+      "studentId": "STU-001",
+      "date": "2024-10-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Octobre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU1-NOV",
+      "studentId": "STU-001",
+      "date": "2024-11-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Novembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU1-DEC",
+      "studentId": "STU-001",
+      "date": "2024-12-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Décembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU1-JAN",
+      "studentId": "STU-001",
+      "date": "2025-01-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Janvier 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU1-FEV",
+      "studentId": "STU-001",
+      "date": "2025-02-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Février 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU1-MAR",
+      "studentId": "STU-001",
+      "date": "2025-03-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Mars 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-SEP",
+      "studentId": "STU-002",
+      "date": "2024-09-05",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Inscription",
+          "amount": 45000
+        },
+        {
+          "description": "Scolarité Septembre 2024",
+          "amount": 50000
+        },
+        {
+          "description": "Tenue scolaire",
+          "amount": 25000
+        },
+        {
+          "description": "Tenue sportive",
+          "amount": 6500
+        },
+        {
+          "description": "Livres et fournitures",
+          "amount": 18000
+        }
+      ],
+      "totalAmount": 144500
+    },
+    {
+      "id": "INV-STU2-OCT",
+      "studentId": "STU-002",
+      "date": "2024-10-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Octobre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-NOV",
+      "studentId": "STU-002",
+      "date": "2024-11-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Novembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-DEC",
+      "studentId": "STU-002",
+      "date": "2024-12-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Décembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-JAN",
+      "studentId": "STU-002",
+      "date": "2025-01-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Janvier 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-FEV",
+      "studentId": "STU-002",
+      "date": "2025-02-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Février 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU2-MAR",
+      "studentId": "STU-002",
+      "date": "2025-03-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Mars 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-SEP",
+      "studentId": "STU-003",
+      "date": "2024-09-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Réinscription",
+          "amount": 40000
+        },
+        {
+          "description": "Scolarité Septembre 2024",
+          "amount": 50000
+        },
+        {
+          "description": "Tenue scolaire",
+          "amount": 25000
+        },
+        {
+          "description": "Tenue sportive",
+          "amount": 6500
+        },
+        {
+          "description": "Livres et fournitures",
+          "amount": 18000
+        }
+      ],
+      "totalAmount": 139500
+    },
+    {
+      "id": "INV-STU3-OCT",
+      "studentId": "STU-003",
+      "date": "2024-10-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Octobre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-NOV",
+      "studentId": "STU-003",
+      "date": "2024-11-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Novembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-DEC",
+      "studentId": "STU-003",
+      "date": "2024-12-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Décembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-JAN",
+      "studentId": "STU-003",
+      "date": "2025-01-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Janvier 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-FEV",
+      "studentId": "STU-003",
+      "date": "2025-02-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Février 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU3-MAR",
+      "studentId": "STU-003",
+      "date": "2025-03-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Mars 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-SEP",
+      "studentId": "STU-004",
+      "date": "2024-09-05",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Réinscription",
+          "amount": 40000
+        },
+        {
+          "description": "Scolarité Septembre 2024",
+          "amount": 50000
+        },
+        {
+          "description": "Tenue scolaire",
+          "amount": 25000
+        },
+        {
+          "description": "Tenue sportive",
+          "amount": 6500
+        },
+        {
+          "description": "Livres et fournitures",
+          "amount": 18000
+        }
+      ],
+      "totalAmount": 139500
+    },
+    {
+      "id": "INV-STU4-OCT",
+      "studentId": "STU-004",
+      "date": "2024-10-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Octobre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-NOV",
+      "studentId": "STU-004",
+      "date": "2024-11-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Novembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-DEC",
+      "studentId": "STU-004",
+      "date": "2024-12-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Décembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-JAN",
+      "studentId": "STU-004",
+      "date": "2025-01-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Janvier 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-FEV",
+      "studentId": "STU-004",
+      "date": "2025-02-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Février 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU4-MAR",
+      "studentId": "STU-004",
+      "date": "2025-03-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Mars 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-SEP",
+      "studentId": "STU-005",
+      "date": "2024-09-03",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Réinscription",
+          "amount": 40000
+        },
+        {
+          "description": "Scolarité Septembre 2024",
+          "amount": 50000
+        },
+        {
+          "description": "Tenue scolaire",
+          "amount": 25000
+        },
+        {
+          "description": "Tenue sportive",
+          "amount": 6500
+        },
+        {
+          "description": "Livres et fournitures",
+          "amount": 18000
+        }
+      ],
+      "totalAmount": 139500
+    },
+    {
+      "id": "INV-STU5-OCT",
+      "studentId": "STU-005",
+      "date": "2024-10-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Octobre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-NOV",
+      "studentId": "STU-005",
+      "date": "2024-11-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Novembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-DEC",
+      "studentId": "STU-005",
+      "date": "2024-12-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Décembre 2024",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-JAN",
+      "studentId": "STU-005",
+      "date": "2025-01-02",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Janvier 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-FEV",
+      "studentId": "STU-005",
+      "date": "2025-02-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Février 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    },
+    {
+      "id": "INV-STU5-MAR",
+      "studentId": "STU-005",
+      "date": "2025-03-01",
+      "status": "PAID",
+      "items": [
+        {
+          "description": "Scolarité Mars 2025",
+          "amount": 50000
+        }
+      ],
+      "totalAmount": 50000
+    }
+  ],
+  "subjects": [
+    {
+      "id": "SUBJ-001",
+      "name": "Mathématiques",
+      "shortName": "Math",
+      "coefficient": 5,
+      "color": "#4C51BF"
+    },
+    {
+      "id": "SUBJ-002",
+      "name": "Français",
+      "shortName": "Fran",
+      "coefficient": 5,
+      "color": "#ED8936"
+    },
+    {
+      "id": "SUBJ-003",
+      "name": "Découverte du monde",
+      "shortName": "Monde",
+      "coefficient": 3,
+      "color": "#805AD5"
+    },
+    {
+      "id": "SUBJ-004",
+      "name": "Arts visuels",
+      "shortName": "Arts",
+      "coefficient": 2,
+      "color": "#38B2AC"
+    },
+    {
+      "id": "SUBJ-005",
+      "name": "Musique",
+      "shortName": "Mus",
+      "coefficient": 1,
+      "color": "#F56565"
+    },
+    {
+      "id": "SUBJ-006",
+      "name": "Éducation Physique",
+      "shortName": "EPS",
+      "coefficient": 2,
+      "color": "#48BB78"
+    }
+  ],
+  "grades": [
+    {
+      "id": "GRD-001",
+      "studentId": "STU-001",
+      "subjectId": "SUBJ-001",
+      "value": 16.5,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Excellent travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-002",
+      "studentId": "STU-001",
+      "subjectId": "SUBJ-002",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bon résultat",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-003",
+      "studentId": "STU-001",
+      "subjectId": "SUBJ-003",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-004",
+      "studentId": "STU-001",
+      "subjectId": "SUBJ-006",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Très bonne performance",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-005",
+      "studentId": "STU-002",
+      "subjectId": "SUBJ-001",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-01-20",
+      "comment": "Bon travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-006",
+      "studentId": "STU-002",
+      "subjectId": "SUBJ-002",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-10",
+      "comment": "Excellent niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-007",
+      "studentId": "STU-002",
+      "subjectId": "SUBJ-004",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-008",
+      "studentId": "STU-003",
+      "subjectId": "SUBJ-001",
+      "value": 12.5,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "En progrès",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-009",
+      "studentId": "STU-003",
+      "subjectId": "SUBJ-002",
+      "value": 13,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-01-25",
+      "comment": "Des efforts visibles",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-010",
+      "studentId": "STU-003",
+      "subjectId": "SUBJ-003",
+      "value": 14.5,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-20",
+      "comment": "Bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-011",
+      "studentId": "STU-004",
+      "subjectId": "SUBJ-001",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-012",
+      "studentId": "STU-004",
+      "subjectId": "SUBJ-002",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-18",
+      "comment": "Excellent travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-013",
+      "studentId": "STU-004",
+      "subjectId": "SUBJ-004",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-12",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-014",
+      "studentId": "STU-005",
+      "subjectId": "SUBJ-001",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-01-30",
+      "comment": "Bon travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-015",
+      "studentId": "STU-005",
+      "subjectId": "SUBJ-003",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-12",
+      "comment": "Très bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-016",
+      "studentId": "STU-005",
+      "subjectId": "SUBJ-006",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Excellent en sport",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-017",
+      "studentId": "STU-006",
+      "subjectId": "SUBJ-001",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Bonne compréhension",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-018",
+      "studentId": "STU-006",
+      "subjectId": "SUBJ-002",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-019",
+      "studentId": "STU-006",
+      "subjectId": "SUBJ-004",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-020",
+      "studentId": "STU-007",
+      "subjectId": "SUBJ-001",
+      "value": 13,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "En progrès",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-021",
+      "studentId": "STU-007",
+      "subjectId": "SUBJ-002",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-022",
+      "studentId": "STU-007",
+      "subjectId": "SUBJ-006",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Bon esprit d'équipe",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-023",
+      "studentId": "STU-008",
+      "subjectId": "SUBJ-001",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Très bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-024",
+      "studentId": "STU-008",
+      "subjectId": "SUBJ-002",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Excellent travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-025",
+      "studentId": "STU-008",
+      "subjectId": "SUBJ-004",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-026",
+      "studentId": "STU-009",
+      "subjectId": "SUBJ-001",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-01-30",
+      "comment": "Bon travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-027",
+      "studentId": "STU-009",
+      "subjectId": "SUBJ-003",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-12",
+      "comment": "Très bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-028",
+      "studentId": "STU-009",
+      "subjectId": "SUBJ-006",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Excellent en sport",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-029",
+      "studentId": "STU-010",
+      "subjectId": "SUBJ-001",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Bonne compréhension",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-030",
+      "studentId": "STU-010",
+      "subjectId": "SUBJ-002",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-031",
+      "studentId": "STU-010",
+      "subjectId": "SUBJ-004",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-032",
+      "studentId": "STU-011",
+      "subjectId": "SUBJ-001",
+      "value": 13,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "En progrès",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-033",
+      "studentId": "STU-011",
+      "subjectId": "SUBJ-002",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-034",
+      "studentId": "STU-011",
+      "subjectId": "SUBJ-006",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Bon esprit d'équipe",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-035",
+      "studentId": "STU-012",
+      "subjectId": "SUBJ-001",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Très bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-036",
+      "studentId": "STU-012",
+      "subjectId": "SUBJ-002",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Excellent travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-037",
+      "studentId": "STU-012",
+      "subjectId": "SUBJ-004",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-038",
+      "studentId": "STU-013",
+      "subjectId": "SUBJ-001",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-01-30",
+      "comment": "Bon travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-039",
+      "studentId": "STU-013",
+      "subjectId": "SUBJ-003",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-12",
+      "comment": "Très bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-040",
+      "studentId": "STU-013",
+      "subjectId": "SUBJ-006",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Excellent en sport",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-041",
+      "studentId": "STU-014",
+      "subjectId": "SUBJ-001",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Bonne compréhension",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-042",
+      "studentId": "STU-014",
+      "subjectId": "SUBJ-002",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-043",
+      "studentId": "STU-014",
+      "subjectId": "SUBJ-004",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-044",
+      "studentId": "STU-015",
+      "subjectId": "SUBJ-001",
+      "value": 13,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "En progrès",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-045",
+      "studentId": "STU-015",
+      "subjectId": "SUBJ-002",
+      "value": 14,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Bonne participation",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-046",
+      "studentId": "STU-015",
+      "subjectId": "SUBJ-006",
+      "value": 15,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-15",
+      "comment": "Bon esprit d'équipe",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-047",
+      "studentId": "STU-016",
+      "subjectId": "SUBJ-001",
+      "value": 16,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-10",
+      "comment": "Très bon niveau",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-048",
+      "studentId": "STU-016",
+      "subjectId": "SUBJ-002",
+      "value": 17,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-03-15",
+      "comment": "Excellent travail",
+      "quarter": 1
+    },
+    {
+      "id": "GRD-049",
+      "studentId": "STU-016",
+      "subjectId": "SUBJ-004",
+      "value": 18,
+      "type": "EVALUATION",
+      "coefficient": 1,
+      "date": "2025-02-05",
+      "comment": "Très créative",
+      "quarter": 1
+    }
+  ],
+  "quarters": [
+    {
+      "id": 1,
+      "name": "1er Trimestre",
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-31"
+    },
+    {
+      "id": 2,
+      "name": "2ème Trimestre",
+      "startDate": "2025-04-01",
+      "endDate": "2025-06-30"
+    },
+    {
+      "id": 3,
+      "name": "3ème Trimestre",
+      "startDate": "2025-09-01",
+      "endDate": "2025-12-31"
+    }
+  ],
+  "subjectsByClass": [
+    {
+      "classId": "CL-001",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-002",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-003",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-004",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-005",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-006",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-007",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    },
+    {
+      "classId": "CL-008",
+      "subjects": ["SUBJ-001", "SUBJ-002", "SUBJ-003", "SUBJ-004", "SUBJ-005", "SUBJ-006"]
+    }
+  ],
+  "formateurs": [
+    {
+      "id": "FORM-001",
+      "firstname": "Élodie",
+      "lastname": "MBOUA",
+      "classes": ["CL-001"],
+      "specialite": "Petite Section",
+      "comment": "Professeure des écoles - Polyvalente"
+    },
+    {
+      "id": "FORM-002",
+      "firstname": "Roger",
+      "lastname": "KIMBEMBE",
+      "classes": ["CL-002"],
+      "specialite": "Moyenne Section",
+      "comment": "Professeur des écoles - Polyvalent"
+    },
+    {
+      "id": "FORM-003",
+      "firstname": "Grace",
+      "lastname": "LOUBELO",
+      "classes": ["CL-003"],
+      "specialite": "Grande Section",
+      "comment": "Professeure des écoles - Polyvalente"
+    },
+
+    {
+      "id": "FORM-004",
+      "firstname": "Armand",
+      "lastname": "NGOMA",
+      "classes": ["CL-004"],
+      "specialite": "CP",
+      "comment": "Professeur principal"
+    },
+    {
+      "id": "FORM-005",
+      "firstname": "Véronique",
+      "lastname": "MABIALA",
+      "classes": ["CL-005"],
+      "specialite": "CE1",
+      "comment": "Professeure principale"
+    },
+    {
+      "id": "FORM-006",
+      "firstname": "Jacques",
+      "lastname": "BOUITY",
+      "classes": ["CL-006"],
+      "specialite": "CE2",
+      "comment": "Professeur principal"
+    },
+    {
+      "id": "FORM-007",
+      "firstname": "Chantal",
+      "lastname": "MAMPOUYA",
+      "classes": ["CL-007"],
+      "specialite": "CM1",
+      "comment": "Professeure principale"
+    },
+    {
+      "id": "FORM-008",
+      "firstname": "Alain",
+      "lastname": "MABONZO",
+      "classes": ["CL-008"],
+      "specialite": "CM2",
+      "comment": "Professeur principal"
+    },
+
+    {
+      "id": "FORM-009",
+      "firstname": "Michel",
+      "lastname": "DIMBOU",
+      "classes": ["CL-001","CL-002","CL-003","CL-004","CL-005","CL-006","CL-007","CL-008"],
+      "specialite": "EPS",
+      "comment": "Éducation Physique et Sportive"
+    },
+    {
+      "id": "FORM-010",
+      "firstname": "Sylvie",
+      "lastname": "MFOUTOU",
+      "classes": ["CL-001","CL-002","CL-003"],
+      "specialite": "Éveil musical",
+      "comment": "Intervenante musique maternelle"
+    },
+    {
+      "id": "FORM-011",
+      "firstname": "David",
+      "lastname": "KOUBEMBA",
+      "classes": ["CL-004","CL-005","CL-006","CL-007","CL-008"],
+      "specialite": "Musique",
+      "comment": "Éducation musicale primaire"
+    },
+    {
+      "id": "FORM-012",
+      "firstname": "Laura",
+      "lastname": "LOUBANGUI",
+      "classes": ["CL-001","CL-002","CL-003"],
+      "specialite": "Arts plastiques",
+      "comment": "Intervenante arts visuels"
+    },
+    {
+      "id": "FORM-013",
+      "firstname": "Patrick",
+      "lastname": "MABANZA",
+      "classes": ["CL-004","CL-005","CL-006","CL-007","CL-008"],
+      "specialite": "Anglais",
+      "comment": "Enseignant langue vivante"
+    },
+    {
+      "id": "FORM-014",
+      "firstname": "Annie",
+      "lastname": "NGOLO",
+      "classes": ["CL-003","CL-004","CL-005"],
+      "specialite": "Bibliothèque",
+      "comment": "Responsable BCD"
+    },
+
+    {
+      "id": "FORM-015",
+      "firstname": "Henri",
+      "lastname": "MABIKA",
+      "classes": ["LVL-001"],
+      "specialite": "Coordination maternelle",
+      "comment": "Référent pédagogique"
+    },
+    {
+      "id": "FORM-016",
+      "firstname": "Claudine",
+      "lastname": "LOUBAKA",
+      "classes": ["LVL-002"],
+      "specialite": "Coordination primaire",
+      "comment": "Référente pédagogique"
+    }
+  ],
+  
+    "timeSlots": [
+      {"id": "TS-AM1", "startTime": "08:00", "endTime": "08:45"},
+      {"id": "TS-AM2", "startTime": "08:45", "endTime": "09:30"},
+      {"id": "TS-AM3", "startTime": "09:45", "endTime": "10:30"},
+      {"id": "TS-AM4", "startTime": "10:30", "endTime": "11:15"},
+      {"id": "TS-AM5", "startTime": "11:15", "endTime": "12:00"},
+      {"id": "TS-PM1", "startTime": "14:00", "endTime": "14:45"},
+      {"id": "TS-PM2", "startTime": "14:45", "endTime": "15:30"},
+      {"id": "TS-PM3", "startTime": "15:45", "endTime": "16:30"}
+    ],
+    
+    "schedule": [
+      {"id":"SCH-PS-LUN-1","classId":"CL-001","subjectId":"SUBJ-003","teacherId":"FORM-001","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"PS-A1"},
+      {"id":"SCH-PS-LUN-2","classId":"CL-001","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"Atelier"},
+      {"id":"SCH-PS-LUN-3","classId":"CL-001","subjectId":"SUBJ-006","teacherId":"FORM-009","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"Cour"},
+      {"id":"SCH-PS-MAR-1","classId":"CL-001","subjectId":"SUBJ-001","teacherId":"FORM-001","timeSlotId":"TS-AM1","dayOfWeek":1,"room":"PS-A1"},
+      {"id":"SCH-PS-MAR-2","classId":"CL-001","subjectId":"SUBJ-005","teacherId":"FORM-010","timeSlotId":"TS-AM2","dayOfWeek":1,"room":"Musique"},
+      {"id":"SCH-PS-MER-1","classId":"CL-001","subjectId":"SUBJ-002","teacherId":"FORM-001","timeSlotId":"TS-AM1","dayOfWeek":2,"room":"PS-A1"},
+      {"id":"SCH-PS-JEU-1","classId":"CL-001","subjectId":"SUBJ-001","teacherId":"FORM-001","timeSlotId":"TS-AM1","dayOfWeek":3,"room":"PS-A1"},
+      {"id":"SCH-PS-JEU-2","classId":"CL-001","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":3,"room":"Atelier"},
+      {"id":"SCH-PS-VEN-1","classId":"CL-001","subjectId":"SUBJ-002","teacherId":"FORM-001","timeSlotId":"TS-AM1","dayOfWeek":4,"room":"PS-A1"},
+      {"id":"SCH-PS-VEN-2","classId":"CL-001","subjectId":"SUBJ-003","teacherId":"FORM-001","timeSlotId":"TS-AM2","dayOfWeek":4,"room":"PS-A1"},
+  
+      {"id":"SCH-MS-LUN-1","classId":"CL-002","subjectId":"SUBJ-001","teacherId":"FORM-002","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"MS-B2"},
+      {"id":"SCH-MS-LUN-2","classId":"CL-002","subjectId":"SUBJ-005","teacherId":"FORM-010","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"Musique"},
+      {"id":"SCH-MS-LUN-3","classId":"CL-002","subjectId":"SUBJ-003","teacherId":"FORM-002","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"MS-B2"},
+      {"id":"SCH-MS-MAR-1","classId":"CL-002","subjectId":"SUBJ-002","teacherId":"FORM-002","timeSlotId":"TS-AM1","dayOfWeek":1,"room":"MS-B2"},
+      {"id":"SCH-MS-MAR-2","classId":"CL-002","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":1,"room":"Atelier"},
+      {"id":"SCH-MS-MER-1","classId":"CL-002","subjectId":"SUBJ-001","teacherId":"FORM-002","timeSlotId":"TS-AM1","dayOfWeek":2,"room":"MS-B2"},
+      {"id":"SCH-MS-JEU-1","classId":"CL-002","subjectId":"SUBJ-002","teacherId":"FORM-002","timeSlotId":"TS-AM1","dayOfWeek":3,"room":"MS-B2"},
+      {"id":"SCH-MS-JEU-2","classId":"CL-002","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":3,"room":"Atelier"},
+      {"id":"SCH-MS-VEN-1","classId":"CL-002","subjectId":"SUBJ-001","teacherId":"FORM-002","timeSlotId":"TS-AM1","dayOfWeek":4,"room":"MS-B2"},
+      {"id":"SCH-MS-VEN-2","classId":"CL-002","subjectId":"SUBJ-003","teacherId":"FORM-002","timeSlotId":"TS-AM2","dayOfWeek":4,"room":"MS-B2"},
+  
+      {"id":"SCH-GS-LUN-1","classId":"CL-003","subjectId":"SUBJ-001","teacherId":"FORM-003","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"GS-C3"},
+      {"id":"SCH-GS-LUN-2","classId":"CL-003","subjectId":"SUBJ-002","teacherId":"FORM-003","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"GS-C3"},
+      {"id":"SCH-GS-LUN-3","classId":"CL-003","subjectId":"SUBJ-006","teacherId":"FORM-009","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"Cour"},
+      {"id":"SCH-GS-MAR-1","classId":"CL-003","subjectId":"SUBJ-003","teacherId":"FORM-003","timeSlotId":"TS-AM1","dayOfWeek":1,"room":"GS-C3"},
+      {"id":"SCH-GS-MAR-2","classId":"CL-003","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":1,"room":"Atelier"},
+      {"id":"SCH-GS-MER-1","classId":"CL-003","subjectId":"SUBJ-001","teacherId":"FORM-003","timeSlotId":"TS-AM1","dayOfWeek":2,"room":"GS-C3"},
+      {"id":"SCH-GS-JEU-1","classId":"CL-003","subjectId":"SUBJ-003","teacherId":"FORM-003","timeSlotId":"TS-AM1","dayOfWeek":3,"room":"GS-C3"},
+      {"id":"SCH-GS-JEU-2","classId":"CL-003","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-AM2","dayOfWeek":3,"room":"Atelier"},
+      {"id":"SCH-GS-VEN-1","classId":"CL-003","subjectId":"SUBJ-001","teacherId":"FORM-003","timeSlotId":"TS-AM1","dayOfWeek":4,"room":"GS-C3"},
+      {"id":"SCH-GS-VEN-2","classId":"CL-003","subjectId":"SUBJ-002","teacherId":"FORM-003","timeSlotId":"TS-AM2","dayOfWeek":4,"room":"GS-C3"},
+  
+      {"id":"SCH-CP-LUN-1","classId":"CL-004","subjectId":"SUBJ-001","teacherId":"FORM-004","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"CP-D4"},
+      {"id":"SCH-CP-LUN-2","classId":"CL-004","subjectId":"SUBJ-002","teacherId":"FORM-004","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"CP-D4"},
+      {"id":"SCH-CP-LUN-3","classId":"CL-004","subjectId":"SUBJ-003","teacherId":"FORM-004","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"CP-D4"},
+      {"id":"SCH-CP-LUN-4","classId":"CL-004","subjectId":"SUBJ-006","teacherId":"FORM-009","timeSlotId":"TS-PM1","dayOfWeek":0,"room":"Gymnase"},
+      {"id":"SCH-CP-MAR-1","classId":"CL-004","subjectId":"SUBJ-002","teacherId":"FORM-004","timeSlotId":"TS-AM1","dayOfWeek":1,"room":"CP-D4"},
+      {"id":"SCH-CP-MAR-2","classId":"CL-004","subjectId":"SUBJ-001","teacherId":"FORM-004","timeSlotId":"TS-AM2","dayOfWeek":1,"room":"CP-D4"},
+      {"id":"SCH-CP-MAR-3","classId":"CL-004","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-PM1","dayOfWeek":1,"room":"Atelier"},
+      {"id":"SCH-CP-MER-1","classId":"CL-004","subjectId":"SUBJ-001","teacherId":"FORM-004","timeSlotId":"TS-AM1","dayOfWeek":2,"room":"CP-D4"},
+      {"id":"SCH-CP-MER-2","classId":"CL-004","subjectId":"SUBJ-002","teacherId":"FORM-004","timeSlotId":"TS-AM2","dayOfWeek":2,"room":"CP-D4"},
+      {"id":"SCH-CP-JEU-1","classId":"CL-004","subjectId":"SUBJ-002","teacherId":"FORM-004","timeSlotId":"TS-AM1","dayOfWeek":3,"room":"CP-D4"},
+      {"id":"SCH-CP-JEU-2","classId":"CL-004","subjectId":"SUBJ-001","teacherId":"FORM-004","timeSlotId":"TS-AM2","dayOfWeek":3,"room":"CP-D4"},
+      {"id":"SCH-CP-JEU-3","classId":"CL-004","subjectId":"SUBJ-003","teacherId":"FORM-004","timeSlotId":"TS-AM3","dayOfWeek":3,"room":"CP-D4"},
+      {"id":"SCH-CP-JEU-4","classId":"CL-004","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-PM1","dayOfWeek":3,"room":"Atelier"},
+      {"id":"SCH-CP-VEN-1","classId":"CL-004","subjectId":"SUBJ-001","teacherId":"FORM-004","timeSlotId":"TS-AM1","dayOfWeek":4,"room":"CP-D4"},
+      {"id":"SCH-CP-VEN-2","classId":"CL-004","subjectId":"SUBJ-002","teacherId":"FORM-004","timeSlotId":"TS-AM2","dayOfWeek":4,"room":"CP-D4"},
+      {"id":"SCH-CP-VEN-3","classId":"CL-004","subjectId":"SUBJ-005","teacherId":"FORM-011","timeSlotId":"TS-PM1","dayOfWeek":4,"room":"Musique"},
+  
+      {"id":"SCH-CE1-LUN-1","classId":"CL-005","subjectId":"SUBJ-001","teacherId":"FORM-005","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"CE1-E5"},
+      {"id":"SCH-CE1-LUN-2","classId":"CL-005","subjectId":"SUBJ-002","teacherId":"FORM-005","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"CE1-E5"},
+      {"id":"SCH-CE1-LUN-3","classId":"CL-005","subjectId":"SUBJ-003","teacherId":"FORM-005","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"CE1-E5"},
+      {"id":"SCH-CE1-LUN-4","classId":"CL-005","subjectId":"SUBJ-006","teacherId":"FORM-009","timeSlotId":"TS-PM1","dayOfWeek":0,"room":"Gymnase"},
+      {"id":"SCH-CE1-LUN-5","classId":"CL-005","subjectId":"SUBJ-004","teacherId":"FORM-012","timeSlotId":"TS-PM2","dayOfWeek":0,"room":"Atelier"},
+    
+   
+      {"id":"SCH-CM2-LUN-1","classId":"CL-008","subjectId":"SUBJ-001","teacherId":"FORM-008","timeSlotId":"TS-AM1","dayOfWeek":0,"room":"CM2-H8"},
+      {"id":"SCH-CM2-LUN-2","classId":"CL-008","subjectId":"SUBJ-002","teacherId":"FORM-008","timeSlotId":"TS-AM2","dayOfWeek":0,"room":"CM2-H8"},
+      {"id":"SCH-CM2-LUN-3","classId":"CL-008","subjectId":"SUBJ-003","teacherId":"FORM-008","timeSlotId":"TS-AM3","dayOfWeek":0,"room":"CM2-H8"},
+      {"id":"SCH-CM2-LUN-4","classId":"CL-008","subjectId":"SUBJ-006","teacherId":"FORM-009","timeSlotId":"TS-PM1","dayOfWeek":0,"room":"Gymnase"},
+      {"id":"SCH-CM2-JEU-5","classId":"CL-008","subjectId":"SUBJ-005","teacherId":"FORM-013","timeSlotId":"TS-PM2","dayOfWeek":3,"room":"Salle Langues"}
+    ]
+}
