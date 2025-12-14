@@ -247,7 +247,7 @@ const Invoices = () => {
       </head>
       <body>
         <div class="header">
-          <h1>Les Minimes</h1>
+          <h1>Complexe Scolaire Allegra</h1>
           <p>Brazzaville, République du Congo | Tél: +242 06 123 456</p>
         </div>
         
@@ -348,7 +348,7 @@ const Invoices = () => {
         ` : ''}
         
         <div class="footer">
-          <p>Les Minimes - Enseignement d'excellence</p>
+          <p>Complexe Scolaire Allegra - Enseignement d'excellence</p>
           <p>Merci de votre confiance</p>
         </div>
       </body>
@@ -457,7 +457,7 @@ const Invoices = () => {
     const printContent = `
       <div style="font-family: Arial, sans-serif; padding: 20px;">
         <div style="text-align: center; margin-bottom: 30px;">
-          <h1 style="color: #2980b9; margin: 0;">Les Minimes</h1>
+          <h1 style="color: #2980b9; margin: 0;">Complexe Scolaire Allegra</h1>
           <p style="margin: 5px 0;">Brazzaville, République du Congo | Tél: +242 06 123 456</p>
         </div>
         
@@ -527,7 +527,7 @@ const Invoices = () => {
         </div>
         
         <div style="clear: both; text-align: center; margin-top: 50px; font-size: 12px; color: #666;">
-          <p>Les Minimes - Enseignement d'excellence</p>
+          <p>Complexe Scolaire Allegra - Enseignement d'excellence</p>
           <p>Merci de votre confiance</p>
         </div>
       </div>

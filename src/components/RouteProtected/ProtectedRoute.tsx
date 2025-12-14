@@ -1,18 +1,20 @@
-import { Navigate, Outlet, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Navigate } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
 
-const ProtectedRoute = () => {
+interface ProtectedRouteProps {
+  children: React.ReactNode;
+}
+
+const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ children }) => {
   const { isAuthenticated } = useAuth();
-  const location = useLocation();
-  
 
   if (!isAuthenticated()) {
-    // On sauvegarde l'URL actuelle pour pouvoir y revenir après connexion
-    return <Navigate to="/login" state={{ from: location }} replace />;
+    // Rediriger vers la page de login si non authentifié
+    return <Navigate to="/login" replace />;
   }
-  
-  // Si l'utilisateur est authentifié, afficher les composants enfants
-  return <Outlet />;
+
+  return <>{children}</>;
 };
 
 export default ProtectedRoute;

@@ -1,11 +1,15 @@
-import React, { Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { Suspense, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import { MainLayout } from './components/Layout/MainLayout';
 import { AdminLayout } from './components/Layout/AdminLayout';
+
+// Pages d'authentification
+const Login = React.lazy(() => import('./pages/authentification/Login'));
+const ProtectedRoute = React.lazy(() => import('./components/RouteProtected/ProtectedRoute'));
 
 // Dashboard principal 
 const Dashboard = React.lazy(() => import('./pages/Dashboard'));
@@ -48,15 +52,15 @@ const Settings = React.lazy(() => import('./pages/administration/Settings'));
 const UserProfile = React.lazy(() => import('./pages/UserProfile'));
 
 // Page 404
-const NotFound = () => (
-  <div className="flex flex-col items-center justify-center h-screen text-center">
-    <h1 className="text-6xl font-bold text-gray-600 mb-4">404</h1>
-    <p className="text-xl text-gray-500 mb-8">Page non trouvée</p>
-    <a href="/" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
-      Retour à l'accueil
-    </a>
-  </div>
-);
+// const NotFound = () => (
+//   <div className="flex flex-col items-center justify-center h-screen text-center">
+//     <h1 className="text-6xl font-bold text-gray-600 mb-4">404</h1>
+//     <p className="text-xl text-gray-500 mb-8">Page non trouvée</p>
+//     <a href="/" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+//       Retour à l'accueil
+//     </a>
+//   </div>
+// );
 
 // Composant de chargement réutilisable
 const LoadingComponent = () => (
@@ -75,11 +79,22 @@ const queryClient = new QueryClient({
   },
 });
 
+// Composant pour rediriger les utilisateurs non authentifiés
+const AuthRedirect = () => {
+  const navigate = useNavigate();
+  
+  useEffect(() => {
+    navigate('/login');
+  }, [navigate]);
+  
+  return <LoadingComponent />;
+};
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <BrowserRouter>
-      <ToastContainer
+        <ToastContainer
           position="top-right"
           autoClose={2000}
           hideProgressBar={false}
@@ -93,8 +108,16 @@ function App() {
         />
         <Suspense fallback={<LoadingComponent />}>
           <Routes>
-            <Route path="/" element={<MainLayout />}>
-              <Route index element={<Dashboard />} />
+            {/* Routes publiques */}
+            <Route path="/login" element={<Login />} />
+            
+            {/* Routes protégées - Layout principal */}
+            <Route path="/" element={
+              <ProtectedRoute>
+                <MainLayout />
+              </ProtectedRoute>
+            }>
+              <Route index element={<Navigate to="/dashboard" replace />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="payments" element={<Payments />} />
               <Route path="fees" element={<Fees />} />
@@ -119,8 +142,13 @@ function App() {
               <Route path="discipline-esclusions" element={<GestionExclusions />} />
             </Route>
 
-            <Route path="/paiement" element={<AdminLayout />}>
-              <Route index element={<DashboardPayment />} />
+            {/* Routes protégées - Layout admin */}
+            <Route path="/paiement" element={
+              <ProtectedRoute>
+                <AdminLayout />
+              </ProtectedRoute>
+            }>
+              <Route index element={<Navigate to="dashboardpayments" replace />} />
               <Route path="dashboardpayments" element={<DashboardPayment />} />
               <Route path="presences" element={<TeacherAttendance />} />
               <Route path="paye" element={<TeacherPayments />} />
@@ -129,8 +157,8 @@ function App() {
               <Route path="depenses" element={<Depenses />} />
             </Route>
 
-            {/* Route catch-all pour les 404 */}
-            <Route path="*" element={<NotFound />} />
+            {/* Redirection par défaut pour les routes non authentifiées */}
+            <Route path="*" element={<AuthRedirect />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

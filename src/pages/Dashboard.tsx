@@ -437,7 +437,7 @@ const Dashboard = () => {
     // Pied de page
     doc.setTextColor(150, 150, 150);
     doc.setFontSize(8);
-    doc.text('Les Minimes - Tableau de Bord', 148, 200, { align: 'center' });
+    doc.text('Complexe Scolaire Allegra - Tableau de Bord', 148, 200, { align: 'center' });
 
     doc.save(`tableau_de_bord_${new Date().toISOString().split('T')[0]}.pdf`);
   };

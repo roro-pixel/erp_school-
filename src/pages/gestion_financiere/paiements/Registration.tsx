@@ -444,7 +444,7 @@ const generatePDF = ({ family, student }: { family: Family; student: Student }) 
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(18);
   doc.setFont('helvetica', 'bold');
-  doc.text('Les Minimes', 105, 20, { align: 'center' });
+  doc.text('Complexe Scolaire Allegra', 105, 20, { align: 'center' });
   
   doc.setFontSize(10);
   doc.text('Établissement d\'enseignement secondaire général', 105, 28, { align: 'center' });
@@ -571,7 +571,7 @@ const generatePDF = ({ family, student }: { family: Family; student: Student }) 
   // PIED DE PAGE
   doc.setFontSize(8);
   doc.setTextColor(120, 120, 120);
-  doc.text('Document officiel de Les Minimes - Toute reproduction est interdite', 105, 275, { align: 'center' });
+  doc.text('Document officiel de Complexe Scolaire Allegra - Toute reproduction est interdite', 105, 275, { align: 'center' });
   doc.text('Brazzaville, République du Congo | Tél: +242 06 123 456 | Email: contact@canadianschool.cg', 105, 280, { align: 'center' });
   doc.text(`Numéro de référence: ${inscriptionNumber} - ${currentDate}`, 105, 285, { align: 'center' });
 

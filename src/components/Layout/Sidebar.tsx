@@ -124,7 +124,7 @@ const Sidebar = () => {
             onClick={() => !isDisabled && toggleSubmenu(item.label)}
             className={`flex items-center justify-between w-full gap-3 p-3 rounded-lg transition-colors ${
               item.submenu.some((sub) => location.pathname === sub.path)
-                ? 'bg-orange-100 text-orange-600'
+                ? 'bg-green-100 text-green-600'
                 : 'hover:bg-gray-100 text-gray-700'
             } ${isDisabled ? 'opacity-50 cursor-not-allowed' : ''}`}
             disabled={isDisabled}
@@ -146,7 +146,7 @@ const Sidebar = () => {
                     to={!isSubDisabled ? subItem.path : "#"}
                     className={`block px-3 py-2 rounded text-sm ${
                       location.pathname === subItem.path 
-                        ? "bg-orange-50 text-orange-600" 
+                        ? "bg-green-50 text-green-600" 
                         : "text-gray-700"
                     } ${
                       isSubDisabled 
@@ -170,7 +170,7 @@ const Sidebar = () => {
         to={!isDisabled ? item.path ?? "#" : "#"}
         className={`flex items-center gap-3 p-3 rounded-lg mb-1 transition-colors ${
           location.pathname === item.path 
-            ? "bg-orange-100 text-orange-600" 
+            ? "bg-green-100 text-green-600" 
             : "hover:bg-gray-100 text-gray-700"
         } ${
           isDisabled 
@@ -189,7 +189,8 @@ const Sidebar = () => {
       {/* Sidebar Desktop */}
       <div className="hidden lg:flex lg:flex-col h-screen w-64 bg-white text-gray-800 border-r">
         <div className="p-2 border-b flex justify-center items-center">
-          <img src={Logo} alt="Logo du school" className="h-14 w-auto" />
+          {/* <img src={Logo} alt="Logo du school" className="h-14 w-auto" /> */}
+          <h3 className="font-bold text-green-400 p-5">Complexe Scolaire Allegra</h3>
         </div>
 
         <div className="flex-1 overflow-y-auto">
